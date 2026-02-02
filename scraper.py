@@ -85,8 +85,8 @@ class EniScraper:
             search_box = self.wait.until(EC.element_to_be_clickable((By.ID, "q")))
             search_box.click()
             search_box.clear()
-            search_box.send_keys("Silver Tech")
-            logging.info("Search box pre-filled with 'Silver Tech'.")
+            search_box.send_keys("LLC")
+            logging.info("Search box pre-filled with 'LLC'.")
         except TimeoutException:
             logging.warning("Could not auto-focus search box. Please check manually.")
 
@@ -223,4 +223,5 @@ class EniScraper:
 
 if __name__ == "__main__":
     scraper = EniScraper()
+
     scraper.run()
