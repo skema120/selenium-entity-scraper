@@ -29,9 +29,8 @@ A robust, class-based web scraper built with Python and Selenium. This tool is d
     ```
 
 ## 📝 Limitations & Assumptions
-Human-in-the-Loop: The script intentionally pauses for manual reCAPTCHA solving to avoid the need for third-party paid solver APIs.
-
-Table Structure: The parser assumes a standard <table> structure but uses JavaScript execution to ensure text extraction works even if elements are visually hidden.
+1. Human-in-the-Loop: The script intentionally pauses for manual reCAPTCHA solving to avoid the need for third-party paid solver APIs.
+3. Table Structure: The parser assumes a standard <table> structure but uses JavaScript execution to ensure text extraction works even if elements are visually hidden.
 
 ## 🚀 How to Run
 
