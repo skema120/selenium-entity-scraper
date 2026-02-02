@@ -1,6 +1,6 @@
-# Silver Tech Scraper
+# Web Scraper
 
-A robust, class-based web scraper built with Python and Selenium. This tool is designed to extract business registry data (specifically "Silver Tech" entities) from a target Vercel application, handling dynamic content, pagination, and network resilience.
+A robust, class-based web scraper built with Python and Selenium. This tool is designed to extract business registry data (specifically "LLC" entities) from a target Vercel application, handling dynamic content, pagination, and network resilience.
 
 ## 📋 Features (Meeting Requirements)
 
@@ -41,7 +41,7 @@ A robust, class-based web scraper built with Python and Selenium. This tool is d
     ```
 3.  **Manual Bypass Step:**
     * The browser will open and navigate to the target site.
-    * **Action Required:** You must manually solve the reCAPTCHA and click the "Search" button for "Silver Tech".
+    * **Action Required:** You must manually solve the reCAPTCHA and click the "Search" button for "LLC".
     * Once the table data is visible in the browser, press **ENTER** in the terminal to let the scraper take over.
 
 ## 📂 Output Structure
