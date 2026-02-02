@@ -55,3 +55,9 @@ The data is saved to `output.jsonl`. Each line is a valid JSON object:
     "agent_address": "123 Main St",
     "agent_email": "john@example.com"
 }
+
+
+📝 Limitations & Assumptions
+Human-in-the-Loop: The script intentionally pauses for manual reCAPTCHA solving to avoid the need for third-party paid solver APIs.
+
+Table Structure: The parser assumes a standard <table> structure but uses JavaScript execution to ensure text extraction works even if elements are visually hidden.
